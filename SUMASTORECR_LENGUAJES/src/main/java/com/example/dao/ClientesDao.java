@@ -4,10 +4,8 @@
  */
 package com.example.dao;
 
-/**
- *
- * @author XSF
- */
-public class ClientesDao {
-    
+import com.example.domain.Clientes;
+import org.springframework.data.jpa.repository.JpaRepository;
+
+public interface ClientesDao extends JpaRepository<Clientes, Long> {
 }
